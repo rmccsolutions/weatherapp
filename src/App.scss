@@ -1,0 +1,68 @@
+.App-header {
+  font-weight: "bold";
+  padding-top: "5%";
+  padding-left: "5%";
+  font-size: x-large;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.centerLoading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: 0%;
+}
+
+// @media only screen and (max-width: 400px) {
+//   .centerLoading {
+//     display: block;
+//     margin-left: auto;
+//     margin-right: auto;
+//     margin-top: 85%;
+//   }
+// }
+
+// @media only screen and (max-height: 800px) {
+//   .centerLoading {
+//     display: block;
+//     margin-left: auto;
+//     margin-right: auto;
+//     margin-top: 80%;
+//   }
+// }
+
+// @media only screen and (max-height: 900px) {
+//   .centerLoading {
+//     display: block;
+//     margin-left: auto;
+//     margin-right: auto;
+//     margin-top: 95%;
+//   }
+// }
+
+// @media only screen and (max-height: 1500px) {
+//   .centerLoading {
+//     display: block;
+//     margin-left: 50%;
+//     margin-right: 50%;
+//     margin-top: 60%;
+//   }
+// }
+
+// @media only screen and (max-height: 2500px) {
+//   .centerLoading {
+//     display: block;
+//     margin-left: 50%;
+//     margin-right: 50%;
+//     margin-top: 50%;
+//   }
+// }
